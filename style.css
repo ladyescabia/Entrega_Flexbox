@@ -1,0 +1,160 @@
+:root {
+    --primary-color: #a27fca;
+    --secondary-color: rgb(255, 255, 255);
+    --primary-background-color: black;
+    --secondary-background-color: rgba(0, 0, 0, 0.863);
+}
+
+/* AJUSTES GENERALES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 25px;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: var(--secondary-color);
+}
+
+em {
+    color: var(--primary-color);
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 80px;
+    font-family: "Cinzel Decorative", serif;
+    text-shadow: 2px 2px 5px purple;
+}
+
+h2 {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 50px;
+    font-family: "Cinzel Decorative", serif;
+    text-shadow: 2px 2px 5px purple;
+}
+
+ul {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    row-gap: 40px;
+    align-self: baseline;
+}
+
+ul a {
+    color: var(--secondary-color);
+    padding: 20px;
+    font-size: 15px;
+}
+
+/* HEADER */
+
+header {
+    background-color: var(--primary-background-color);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.box-header {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+header img {
+    height: 300px;
+    width: auto;
+}
+
+header li {
+    list-style: none;
+}
+
+/* BODY */
+
+/* LIBROS */
+
+.libros {
+    background-color: var(--secondary-background-color);
+    padding: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    row-gap: 20px;
+    justify-content: space-around;
+}
+
+.portada {
+    width: 30%;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+/* AUTORA */
+
+.autora {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    row-gap: 50px;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--secondary-background-color);
+}
+
+.box-autora {
+    width: 60%;
+    padding-top: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.rebecca-img {
+    max-height: 600px;
+    min-height: 300px;
+    width: auto;
+    display: flex;
+}
+
+.rebecca-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rebecca-description {
+    max-width: 650px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-background-color);
+}
+
+/* outline: 2px solid green; */
